@@ -1,0 +1,35 @@
+#container {
+  height: 320px;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.bar {
+  width: 10px;
+  margin: 1px;
+  background-color: black;
+}
+
+.button-group {
+  margin-top: 12px;
+  display: flex;
+  gap: 6px;
+}
+
+.btn {
+  width: 72px;
+
+  background-color: darkorange;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+
+  padding: 4px 6px;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  scale: 1.1;
+}
